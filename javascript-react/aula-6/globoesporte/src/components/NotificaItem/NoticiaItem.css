@@ -1,0 +1,17 @@
+.NoticiaItem{
+    display: flex;
+    height: 250px;
+    position: relative;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .NoticiaItem--content{
+    height: 250px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

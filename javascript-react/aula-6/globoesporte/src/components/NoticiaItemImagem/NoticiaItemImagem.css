@@ -1,0 +1,7 @@
+.NoticiaItemImagem{
+    margin: 0 16px 0 0;
+  }
+  
+  .NoticiaItemImagem--img {
+    max-height: 250px;
+  }

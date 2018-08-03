@@ -1,0 +1,19 @@
+.classificacao--table__tr{
+    border-top: 1px solid #e8e8e8;
+	height: 35px;
+}
+.ClassificacaoTableRow--time{
+	font-weight: 300;
+    padding-left: 12px;
+    text-align: left;
+	width: 60px;
+	text-transform: uppercase;
+}
+.ClassificacaoTableRow--pontos{
+	color: #333;
+    font-family: "opensans-light",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 0;
+    width: 50px;
+}

@@ -1,0 +1,32 @@
+.Movies{
+    display: flex;
+    height: 100%;
+    padding: 0;
+    background:  url(./bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Movies--content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Movies--item{
+    width: 350px;
+    margin: 20px;
+}
+
+.Movies--empty{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+

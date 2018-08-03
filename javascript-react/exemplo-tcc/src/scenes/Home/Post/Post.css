@@ -1,0 +1,12 @@
+.Post--text{
+}
+
+.Post--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Post--image__image{
+    max-height: 400px;
+}

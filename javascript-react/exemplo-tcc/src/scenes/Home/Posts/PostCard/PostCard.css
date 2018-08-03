@@ -1,0 +1,56 @@
+.PostCard{
+	margin: 10px;
+	width: 350px;
+	position: relative;
+}
+
+.PostCard--title{
+	text-align: center;
+	height: 40px;
+}
+
+.PostCard--image{
+	height: 200px;
+	width: 350px;
+}
+
+.PostCard--description {
+	margin: 0 0 1em 0;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	text-align: center;
+	/* autoprefixer: off */
+	-webkit-box-orient: vertical;
+	/* autoprefixer: on */
+  }
+  .PostCard--description p {
+		margin: 0;
+  }
+
+
+.PostCard--link__details{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.PostCard--icons{
+	position: absolute;
+	top:313px;
+	width: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.PostCard--icons__icon{
+	cursor: pointer;
+}
+
+.PostCard--icons__link{
+	color: initial;
+}
+.PostCard--icons__link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

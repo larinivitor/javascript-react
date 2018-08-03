@@ -1,0 +1,1 @@
+class PecaInvalidaError extends Error {}

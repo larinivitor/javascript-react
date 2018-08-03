@@ -1,0 +1,1 @@
+class JogadaInvalidaError extends Error {}
